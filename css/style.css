@@ -24,6 +24,7 @@ a:focus {
     color: #FFD700;
     outline: none;
     text-decoration: none;
+    size: 100px;
 }
 
 p {
@@ -890,6 +891,7 @@ h6 {
     background: #222222;
     margin: 0;
     text-transform: uppercase;
+    height: 300;
 }
 
 #rooms .room-rate h1 {
@@ -902,9 +904,14 @@ h6 {
 
 #rooms .room-rate a {
     display: block;
-    padding: 7px 30px;
+    padding: 12px 30px;
     color: #f8a500;
     background: #222222;
+    height: 60px;
+    font-weight: 800;
+    font-size: 22px;
+    text-align:center ;
+
 }
 
 #rooms .room-rate a:hover {
@@ -1101,7 +1108,7 @@ input::-ms-input-placeholder {
     font-size: 16px;
     color: #f8a500;
     line-height: 24px;
-    padding: 10px 30px 8px 30px;
+    padding: 12px 30px 8px 30px;
     border-radius: 0;
     background: #222222;
     border: none;
